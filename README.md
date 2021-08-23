@@ -1,15 +1,15 @@
-# Acer Nitro 5 AN515-54 Hackintosh
+# Acer Nitro 5 AN515-54-574Q Hackintosh
 
 #### Supports MacOS 10.15.x ~ 11.x.x
 
 ![Screen Shot 2021-04-12 at 10 12 52 PM](https://user-images.githubusercontent.com/57904667/114408781-5a001f80-9bdc-11eb-8406-87852d82b836.png)
 
 ## My System
-- Intel® Core™ i7-9750H
+- Intel® Core™ i5-9300H
 - Intel® UHD Graphics 630 & Nvidia GeForce® GTX 1650
-- LG 1920x1080 15,6" 144Hz IPS Panel
+- LG Philips LP156WFC-SPD5 [15.6" LCD]
 - Broadcom DW1820A (Originally ship with Intel® Wi-Fi 6 AX200)
-- 16gb 2666mHz of DDR4 RAM
+- 8gb 2666mHz of DDR4 RAM
 - Samsung EVO 860 256gb M.2 (Originally ship with Micron 2200 256gb PCIe® NVMe™)
 - Realtek HD Audio ALC255
 - ELAN 0504 Touchpad
@@ -33,6 +33,7 @@
 - [x] Battery Management
 - [x] ACPI Display brightness with hot keys / slider
 - [x] Ethernet
+- [x] Intel® Wi-Fi 6 AX200
 - [x] Sleep & Wake
 - [x] WebCam
 - [x] Usb 3.1 & Type C (Mapped USB)
@@ -45,8 +46,7 @@
 ## Not Working:
 - HDMI due to the port hardwired
 - Nvidia GeForce® GTX 1650 (No Hope....)
-- Intel® Wi-Fi 6 AX200 (Work in Progress) [OpenIntelWireless](https://github.com/OpenIntelWireless)
-- Micron 2200 256gb PCIe® NVMe™ (Incompatible) to disable use "nvme=-1" boot-argument
+
 
 ## Credits
 - **Special Thanks** to [dortania](https://dortania.github.io/vanilla-laptop-guide) for the vanilla laptop guide.
